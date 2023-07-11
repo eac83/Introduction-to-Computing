@@ -1,0 +1,6 @@
+#Here begins lfenergy.gnu
+
+set title "Plot of planet energy against time"
+set xlabel "Time / week"
+set ylabel "Energy / J"
+plot 'leng.txt' u 1:2 w lines title '2.0 AU', 'leng.txt' u 3:4 w lines title '1.8 AU', 'leng.txt' u 5:6 w lines title '1.6 AU', 'leng.txt' u 7:8 w lines title '1.4 AU', 'leng.txt' u 9:10 w lines title '1.2 AU'

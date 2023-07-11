@@ -1,0 +1,4 @@
+t = 0
+plot "guitar.txt" every ::100*t::100*t+100 u 1:2 w points
+t = t + 1
+if(t<=100) reread
